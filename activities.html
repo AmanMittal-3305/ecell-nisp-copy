@@ -807,7 +807,6 @@
     <div class="container-xxl pt-5">
         <div class="container">
             <div class="row justify-content-center">
-                <!-- Card 1 -->
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 ">
                     <div class="card h-100" data-aos="fade-up" data-aos-delay="300">
                         <div id="carouselExample2" class="carousel slide" data-ride="carousel">
@@ -861,7 +860,30 @@
                         </div>
                     </div>
                 </div>
-                <!-- Card 2 -->
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="300">
+                        <div id="carouselExample3" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/Events/orientation_1.png" class="d-block w-100 card-img-top"
+                                        alt="Orientation Image 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/Events/orientation_2.jpg" class="d-block w-100 card-img-top"
+                                        alt="Orientation Image 2">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title">ORIENTATION’23</h5>
+                            <p class="card-text">E-Cell MSIT welcomes freshers! Join us at ORIENTATION’23, the official
+                                society orientation, and get insights into the entrepreneurial world. More than 500
+                                freshers have already experienced the excitement.</p>
+                            <p><a href="#" onclick="btnClick(7)">Read more</a></p>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
                     <div class="card h-100" data-aos="fade-up" data-aos-delay="300">
                         <div id="carouselExample2" class="carousel slide" data-ride="carousel">
@@ -885,7 +907,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Card 3 -->
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
                     <div class="card h-100" data-aos="fade-up" data-aos-delay="300">
                         <div id="carouselExample2" class="carousel slide" data-ride="carousel">
@@ -910,7 +931,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Card 4 -->
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
                     <div class="card h-100" data-aos="fade-up" data-aos-delay="300">
                         <div id="carouselExample4" class="carousel slide" data-ride="carousel">
@@ -935,7 +955,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Card 5 -->
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
                     <div class="card h-100" data-aos="fade-up" data-aos-delay="300">
                         <div id="carouselExample1" class="carousel slide" data-ride="carousel">
@@ -961,35 +980,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-                <!-- Card 6 -->
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
-                    <div class="card h-100" data-aos="fade-up" data-aos-delay="300">
-                        <div id="carouselExample3" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="images/Events/orientation_1.png" class="d-block w-100 card-img-top"
-                                        alt="Orientation Image 1">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/Events/orientation_2.jpg" class="d-block w-100 card-img-top"
-                                        alt="Orientation Image 2">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-body text-center">
-                            <h5 class="card-title">ORIENTATION’23</h5>
-                            <p class="card-text">E-Cell MSIT welcomes freshers! Join us at ORIENTATION’23, the official
-                                society orientation, and get insights into the entrepreneurial world. More than 500
-                                freshers have already experienced the excitement.</p>
-                            <p><a href="#" onclick="btnClick(7)">Read more</a></p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card 7 -->
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
                     <div class="card h-100" data-aos="fade-up" data-aos-delay="300">
                         <div id="carouselExample2" class="carousel slide" data-ride="carousel">
@@ -1015,7 +1005,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Card 8 -->
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
                     <div class="card h-100" data-aos="fade-up" data-aos-delay="300">
                         <div id="carouselExample2" class="carousel slide" data-ride="carousel">
@@ -1046,7 +1035,6 @@
                 </div>
                 <!-- Additional hidden cards -->
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 hidden-cards">
-                    <!-- Copy the content of one of your existing cards here -->
                     <div class="card h-100" data-aos="fade-up" data-aos-delay="300">
 
 
@@ -1065,7 +1053,6 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 hidden-cards">
-                    <!-- Copy the content of one of your existing cards here -->
                     <div class="card h-100" data-aos="fade-up" data-aos-delay="300">
                         <div class="card-body text-center">
                             <span class="icon-wrap" style="font-size: 2em; font-weight: bold; color: black;">
@@ -1350,14 +1337,23 @@
         }
 
         document.addEventListener("DOMContentLoaded", function () {
-            // Get all elements with the class "card"
-            var cards = document.querySelectorAll('.card');
+        // Get all elements with the class "card"
+        var cards = document.querySelectorAll('.card');
 
-            // Set 80% black border color for each card
-            cards.forEach(function (card) {
-                card.style.border = '2px solid rgba(0, 0, 0, 0.8)';
-            });
+        // Define a function to set the border color based on the index
+        function setCardBorderColor(card, index) {
+            if (index < 4) {
+                card.style.border = '2px solid #000'; // Black for the first four cards
+            } else {
+                card.style.border = '1px solid #858585'; // #858585 for the rest of the cards
+            }
+        }
+
+        // Iterate through each card and set the border color
+        cards.forEach(function (card, index) {
+            setCardBorderColor(card, index);
         });
+    });
     </script>
 </body>
 
